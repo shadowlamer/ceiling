@@ -1,0 +1,15 @@
+[Unit]
+Description=Translates uinput messages via UDP broadcast
+StartLimitInterval=0
+After=network.target
+
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=root
+Group=root
+ExecStart=/usr/bin/ceilingd
+[Install]
+WantedBy=multi-user.target
