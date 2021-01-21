@@ -7,6 +7,7 @@
 
 #define SERVER_TASK_ID {'c', 'e', 'i', 'l', 'i', 'n', 'g', 'd'}
 
+#define CONFIG_FILE "/etc/ceilingd.conf"
 #define POLL_INTERVAL 20
 #define UDP_PORT 1515
 #define UDP_MULTICAST_GROUP "224.0.0.180"

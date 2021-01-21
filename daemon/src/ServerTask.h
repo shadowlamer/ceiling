@@ -14,8 +14,6 @@
 
 #include "settings.h"
 
-#define CONFIG_FILE "/etc/ceilingd.conf"
-
 using namespace Poco;
 using namespace std;
 using namespace Poco::Util;
